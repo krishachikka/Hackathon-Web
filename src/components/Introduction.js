@@ -1,7 +1,7 @@
 // SpinAndFlicker.js
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-import imageSrc from "../assets/tesseract.jpeg"; // Replace with the actual path to your image
+import imageSrc from "../assets/mlsc-vcet.png"; // Replace with the actual path to your image
 
 const SpinAndFlicker = () => {
   const [rotation, setRotation] = useState(0);
