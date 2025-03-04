@@ -50,7 +50,7 @@ function App() {
       {/* Display Introduction after January 1st */}
       {showIntroduction && (
         <Introduction />
-      )} 
+      )}
 
       {/* Display other components after a delay */}
       {showRemainingComponents && (
