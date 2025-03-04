@@ -194,12 +194,3 @@ Before submitting a pull request, ensure thorough testing of your changes. Verif
 If you have any questions, feel free to reach out to the maintainers or the community for assistance.
 
 Thank you for contributing! 🌟
-
-## Maintainers
-The MLSC Codefest Coherence 1.0 Website is actively maintained and developed by the following contributors:
-
-1. Om Achrekar -> GitHub: [achrekarom12](https://github.com/achrekarom12)
-2. Rishabh Tripathi -> GitHub: [Rishabh-Tripathi1](https://github.com/Rishabh-Tripathi1)
-
-Feel free to contact the maintainers for support, bug reports, or contributions to the project. We appreciate your interest and collaboration!
-
