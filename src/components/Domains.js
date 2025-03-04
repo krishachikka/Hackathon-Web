@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-import WebAppDevImage from "../assets/WebDev.JPEG"; 
-import AIMLImage from "../assets/AIML.JPEG";
-import BlockchainImage from "../assets/Blockchain.jpeg";
+import WebAppDevImage from "../assets/web:app.jpeg"; 
+import AIMLImage from "../assets/Aiml.jpg";
+import BlockchainImage from "../assets/blockchain.jpg";
 import "./style/sectionLine.css";
 
 const Domains = () => {
@@ -49,7 +49,7 @@ const Domains = () => {
             {domains.map((domain, index) => (
               <motion.div
                 key={index}
-                className="rounded-md border bg-gradient-to-b to-purple-800 from-black border-white p-4 sm:p-6 shadow-md"
+                className="rounded-md border bg-gradient-to-b to-blue-800 from-black border-white p-4 sm:p-6 shadow-md"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >

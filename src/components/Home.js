@@ -11,7 +11,7 @@ import Background from "./Background";
 import { motion } from "framer-motion";
 
 const Home = () => {
-  const targetDate = new Date("March 23, 2024 00:00:00 GMT+0530").getTime();
+  const targetDate = new Date("March 28, 2025 00:00:00 GMT+0530").getTime();
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
   const [showScrollButton, setShowScrollButton] = useState(false);
 
@@ -129,7 +129,7 @@ const Home = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="font-bold text-transparent text-3xl md:text-8xl mt-2 bg-clip-text bg-gradient-to-r from-purple-800 via-purple-400 to-purple-800"
+        className="font-bold text-transparent text-3xl md:text-8xl mt-2 bg-clip-text bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800"
         style={{ zIndex: 1 }}
       >
         MLSC Codefest
@@ -207,10 +207,10 @@ const Home = () => {
         <button
           onClick={handleRegistrationClick}
           // Disable the button if registration is closed
-          disabled
+          disabled 
           // className="bg-purple-800 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-xl mt-6"
           // Disable the button if registration is closed
-          className="bg-purple-900  text-white font-semibold py-2 px-4 rounded-xl mt-6"
+          className="bg-blue-900  text-white font-semibold py-2 px-4 rounded-xl mt-6"
           
         >
           Registrations Closed!
@@ -222,7 +222,7 @@ const Home = () => {
           >
             <FontAwesomeIcon
               icon={faAngleUp}
-              style={{ color: "#800080", fontSize: "2 rem" }}
+              style={{ color: "#0675cf", fontSize: "2 rem" }}
             />
           </button>
         )}

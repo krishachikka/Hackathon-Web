@@ -13,7 +13,7 @@ const GeneralGuidelines = () => {
   // Function to check whether conditions for enabling the button are met
   const areConditionsMet = () => {
     // Replace with your actual date and time for enabling the button
-    const enableDate = new Date("February 18, 2024 10:00:00 GMT+0530");
+    const enableDate = new Date("March 4, 2025 10:00:00 GMT+0530");
     const currentDate = new Date();
     return currentDate >= enableDate;
   };
@@ -32,7 +32,7 @@ const GeneralGuidelines = () => {
       </h2>
       <motion.div initial="hidden" animate="visible" variants={fadeAnimation}>
         <div className="px-12 mt-10 md:px-12">
-          <ul className="text-left list-disc mb-10 px-4 py-4 md:py-4 md:px-1 leading-relaxed bg-gradient-to-b from-purple-800 to-black rounded-lg">
+          <ul className="text-left list-disc mb-10 px-4 py-4 md:py-4 md:px-1 leading-relaxed bg-gradient-to-b from-blue-700 to-black rounded-lg">
             <li className="mb-4 text-base md:text-lg ml-8">
               All participants are requested to get their identities verified
               beforehand at the Registration desks.
