@@ -23,7 +23,7 @@ const YetToRevealPage = () => {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="tel:+919369744734" // Replace with your actual contact number
+              href="tel:+91 8291166914" // Replace with your actual contact number
               className="text-sm font-semibold text-gray-300"
             >
               Contact support <span aria-hidden="true">&rarr;</span>

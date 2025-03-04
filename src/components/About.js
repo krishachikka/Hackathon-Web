@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { useState, useEffect } from "react";
 import RotatingTagline from "./Tagline";
-import aboutImage from "../assets/hackathon-2.jpeg"; // Replace with the actual path to your image
+import aboutImage from "../assets/hackathon-3.jpg"; // Replace with the actual path to your image
 import { motion, useAnimation } from "framer-motion";
 
 const About = () => {
@@ -51,10 +51,10 @@ const About = () => {
       {/* Right Side: Content */}
       <div className="w-full md:w-1/2 md:pl-8">
         <h2 className="text-3xl font-bold mb-4 text-white mt-8">
-          About Coherence 1.0
+          About Coherence 2025
         </h2>
         <p className="text-lg mb-4 text-white text-justify">
-          Welcome to Coherence 1.0, where innovation knows no bounds! In the heart
+          Welcome to Coherence 2025, where innovation knows no bounds! In the heart
           of our 24-hour hackathon, we unite brilliant minds, fueling a symphony
           of creativity. Join us on a relentless quest to redefine possibilities
           and amplify the pulse of tech brilliance!
