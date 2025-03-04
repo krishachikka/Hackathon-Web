@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-import WebAppDevImage from "../assets/web:app.jpeg"; 
+import WebAppDevImage from "../assets/web_app.jpeg"; 
 import AIMLImage from "../assets/Aiml.jpg";
 import BlockchainImage from "../assets/blockchain.jpg";
 import "./style/sectionLine.css";
@@ -10,7 +10,7 @@ const Domains = () => {
 
   useEffect(() => {
     controls.start({ x: 0 });
-  }, []);
+  }, [controls]);
   const domains = [
     {
       title: "Web/App Development",

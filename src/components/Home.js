@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Background from "./Background";
 import { motion } from "framer-motion";
+import { Controls } from "three/src/Three.Core.js";
 
 const Home = () => {
   const targetDate = new Date("March 28, 2025 00:00:00 GMT+0530").getTime();

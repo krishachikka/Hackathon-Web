@@ -7,7 +7,7 @@ const Schedule = () => {
 
   useEffect(() => {
     controls.start({ x: 0 });
-  }, []);
+  }, [controls]);
   return (
     <div className="px-4 md:px-8">
       <h2 className="text-3xl font-bold mb-4 text-white section_header">

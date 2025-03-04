@@ -10,9 +10,7 @@ const GeneralGuidelines = () => {
     visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 6.4 } },
   };
 
-  // Function to check whether conditions for enabling the button are met
   const areConditionsMet = () => {
-    // Replace with your actual date and time for enabling the button
     const enableDate = new Date("March 4, 2025 10:00:00 GMT+0530");
     const currentDate = new Date();
     return currentDate >= enableDate;
